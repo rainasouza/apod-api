@@ -1,11 +1,34 @@
-# Getting Started with Create React App
+# NASA Astronomy Picture of the Day (APOD) Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm start`
+## Descrição
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto é um aplicativo web que exibe a imagem do dia da NASA, utilizando a API Astronomy Picture of the Day (APOD). Os usuários podem explorar imagens deslumbrantes e aprender mais sobre o espaço e a astronomia.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
+
+- **Design Responsivo:** O aplicativo se adapta a diferentes tamanhos de tela, proporcionando uma experiência de usuário fluida em dispositivos móveis e desktop.
+- **Seleção de Data:** Os usuários podem escolher uma data específica para visualizar a imagem do dia correspondente.
+- **Interface Estilosa:** A interface é inspirada em um design retrô, tornando a navegação agradável e intuitiva.
+
+## Tecnologias Utilizadas
+
+- **React:** Para a construção da interface do usuário.
+- **Axios:** Para a comunicação com a API da NASA.
+- **CSS:** Para estilização e design responsivo.
+- **API NASA APOD:** Para obter as imagens e descrições.
+
+## Como Executar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nasa-apod.git
+2. Navegue até o diretório do projeto:
+```bash
+  cd nasa-apod
+  npm install
+  REACT_APP_NASA_API_KEY=Sua_Chave_Aqui
+  npm start
+
+
+
