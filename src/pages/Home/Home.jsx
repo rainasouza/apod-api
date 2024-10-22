@@ -77,7 +77,7 @@ const Home = () => {
                 </div>
             )}
             <br></br>
-            today the moon is beautiful, and so are the stars <3 
+           <> today the moon is beautiful, and so are the stars s2 </>
         </div>
     
 
