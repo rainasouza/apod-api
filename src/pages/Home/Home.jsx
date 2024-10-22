@@ -58,6 +58,7 @@ const Home = () => {
                     // [0] pega o primeiro, ou seja, a data que precisamos 
                     
                     max={new Date().toISOString().split('T')[0]}
+                    
                 />
                 <button type="submit">Search by date</button>
             </form>
